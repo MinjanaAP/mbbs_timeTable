@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Schedule</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Study Schedule</h1>
+        <div class="input-group mb-3 mt-4">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search by day (e.g., May 13)">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+            </div>
+        </div>
+        <div id="">
+            <h2 class="text-center">Time Left</h2>
+            <div class="text-center">
+                <span id="days"></span> days <br>
+                <span id="hours"></span> hours <br>
+                <span id="minutes"></span> minutes <br>
+                <span id="seconds"></span> seconds <br>
+            </div>
+        </div>
+        <div class="greeting">
+            <h3 class="text-center mt-4">You can Do it Hiru <span id="greeting"></span>!<i class="fa fa-heart" style="font-size:32px;color:red"></i></h3>
+            <h4>KEY : </h4>
+            <ul>
+                <li>R: Reading/Review</li>
+                <li>E: Essay Writing Practice</li>
+                <li>P: Practice Questions (if applicable)</li>
+                <li>Break: Short break (30-60 minutes)</li>
+            </ul>
+
+        </div>
+        <div id="schedule" class="schedule mt-4"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
