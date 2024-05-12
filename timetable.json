@@ -1,184 +1,211 @@
 {
 "May 13": [
-    {"time": "Morning (3 hours)", "activity": "R - Biochemistry - Metabolism (Carbohydrates)"},
+    {"time": "Morning (5 hours)", "activity": "R - Biochemistry - Metabolism (Carbohydrates)"},
     {"time": "Break (1 hour)", "activity": "Take a break to recharge and refresh."},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Importance of Carbohydrate Metabolism in Health"},
     {"time": "Break (1 hour)", "activity": "Another short break to avoid burnout."},
-    {"time": "Evening (4 hours)", "activity": "R - Physiology - CVS System"}
+    {"time": "Evening (4 hours)", "activity": "R - Physiology - CVS System"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 14": [
-    {"time": "Morning (3 hours)", "activity": "R - Biochemistry - Metabolism (Lipids)"},
+    {"time": "Morning (5 hours)", "activity": "R - Biochemistry - Metabolism (Lipids)"},
     {"time": "Break (1 hour)", "activity": "Short break to maintain focus."},
     {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions on Metabolism"},
     {"time": "Break (1 hour)", "activity": "Refresh and recharge for the evening session."},
-    {"time": "Evening (4 hours)", "activity": "R - Physiology - Respiratory System"}
+    {"time": "Evening (4 hours)", "activity": "R - Physiology - Respiratory System"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 15": [
-    {"time": "Morning (2 hours)", "activity": "R - Biochemistry - Protein Metabolism"},
+    {"time": "Morning (5 hours)", "activity": "R - Biochemistry - Protein Metabolism"},
     {"time": "Break (1 hour)", "activity": "Short break to stay energized."},
     {"time": "Afternoon (2 hours)", "activity": "R - Biochemistry - Fe Metabolism"},
     {"time": "Break (1 hour)", "activity": "Recharge for the evening session."},
-    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Upper Limb"}
+    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Upper Limb"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 16": [
-    {"time": "Morning (2 hours)", "activity": "R - Biochemistry - Haemoglobin"},
+    {"time": "Morning (5 hours)", "activity": "R - Biochemistry - Haemoglobin"},
     {"time": "Break (1 hour)", "activity": "Short break to avoid fatigue."},
     {"time": "Afternoon (2 hours)", "activity": "R - Biochemistry - Nutrition"},
     {"time": "Break (1 hour)", "activity": "Recharge for the evening session."},
-    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Lower Limb"}
+    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Lower Limb"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 17": [
-    {"time": "Morning (2 hours)", "activity": "Review - Biochemistry & Physiology (Covered Topics)"},
+    {"time": "Morning (5 hours)", "activity": "Review - Biochemistry & Physiology (Covered Topics)"},
     {"time": "Break (1 hour)", "activity": "Take a break to refresh your mind."},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Clinical Significance of a Physiological Parameter (Choose a topic)"},
     {"time": "Break (1 hour)", "activity": "Refresh and recharge for the evening session."},
-    {"time": "Evening (4 hours)", "activity": "R - physiology - Respiratory"}
+    {"time": "Evening (4 hours)", "activity": "R - physiology - Respiratory"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 18": [
-    {"time": "Morning (3 hours)", "activity": "R - Physiology - GIT System"},
+    {"time": "Morning (5 hours)", "activity": "R - Physiology - GIT System"},
     {"time": "Break (1 hour)", "activity": "Short break to maintain focus."},
     {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions on Blood (From Physiology)"},
     {"time": "Break (1 hour)", "activity": "Short break to avoid burnout."},
-    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Abdomen (Focus on high-yield areas)"}
+    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Abdomen (Focus on high-yield areas)"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 19": [
     {"time": "Full Day (12 hours)", "activity": "Revision & Integration - Focus on consolidating knowledge from Week 1."},
     {"time": "Morning (4-5 hours)", "activity": "Review key concepts from Biochemistry & Physiology."},
     {"time": "Dedicate 2-3 hours", "activity": "Revisit previously covered Anatomy sections (Upper & Lower Limb)."},
-    {"time": "Utilize remaining time", "activity": "Integrate knowledge from different subjects."}
+    {"time": "Utilize remaining time", "activity": "Integrate knowledge from different subjects."},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 20": [
-    {"time": "Morning (3 hours)", "activity": "R - Physiology - Renal System"},
+    {"time": "Morning (5 hours)", "activity": "R - Physiology - Renal System"},
     {"time": "Break (1 hour)", "activity": "Short break to recharge."},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Role of the Kidney in Maintaining Blood Pressure"},
     {"time": "Break (1 hour)", "activity": "Refresh and recharge for the evening session."},
-    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Thorax (Focus on high-yield areas)"}
+    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Thorax (Focus on high-yield areas)"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 21": [
-    {"time": "Morning (3 hours)", "activity": "R - Physiology - Blood"},
+    {"time": "Morning (5 hours)", "activity": "R - Physiology - Blood"},
     {"time": "Break (1 hour)", "activity": "Short break to maintain focus."},
     {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions on Physiology (Covered Topics)"},
     {"time": "Break (1 hour)", "activity": "Short break to avoid burnout."},
-    {"time": "Evening (4 hours)", "activity": "R - Histology - Gross Histology & Skin"}
+    {"time": "Evening (4 hours)", "activity": "R - Histology - Gross Histology & Skin"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 22": [
-    {"time": "Morning (3 hours)", "activity": "R - Physiology - Endocrine System"},
+    {"time": "Morning (5 hours)", "activity": "R - Physiology - Endocrine System"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Hormonal Regulation of Blood Glucose Levels"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "R - Histology - Respiratory System"}
+    {"time": "Evening (4 hours)", "activity": "R - Histology - Respiratory System"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 23": [
-    {"time": "Morning (3 hours)", "activity": "R - Physiology - Nervous System (Part 1)"},
+    {"time": "Morning (5 hours)", "activity": "R - Physiology - Nervous System (Part 1)"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions on Physiology (Endocrine & Blood)"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "R - Histology - Circulatory System & Blood"}
+    {"time": "Evening (4 hours)", "activity": "R - Histology - Circulatory System & Blood"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 24": [
-    {"time": "Morning (2 hours)", "activity": "Rev. - Physiology & Histology (Covered Topics)"},
+    {"time": "Morning (5 hours)", "activity": "Rev. - Physiology & Histology (Covered Topics)"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Physiological Basis of a Common Disease (Choose a disease)"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Head & Neck (Focus on high-yield areas)"}
+    {"time": "Evening (4 hours)", "activity": "R - Anatomy - Head & Neck (Focus on high-yield areas)"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 25": [
-    {"time": "Morning (3 hours)", "activity": "R - Physiology - Nervous System (Part 2)"},
+    {"time": "Morning (5 hours)", "activity": "R - Physiology - Nervous System (Part 2)"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions on Combined Subjects (Physiology & Histology)"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "R - Embryology - Introduction & Basic Principles"}
+    {"time": "Evening (4 hours)", "activity": "R - Embryology - Introduction & Basic Principles"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 26": [
     {"time": "Full Day (12 hours)", "activity": "Integration & Review"},
     {"time": "4-5 hours", "activity": "Integrate knowledge from Physiology & Histology (covered topics)."},
     {"time": "3-4 hours", "activity": "Rev. - Key concepts from Anatomy (Upper & Lower Limb, Thorax, Head & Neck)."},
-    {"time": "2-3 hours", "activity": "Introduce a new subject (Embryology) - focus on basic principles and early development."}
+    {"time": "2-3 hours", "activity": "Introduce a new subject (Embryology) - focus on basic principles and early development."},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 27": [
-    {"time": "Morning (3 hours)", "activity": "Integ. - Physiology & Anatomy"},
+    {"time": "Morning (5 hours)", "activity": "Integ. - Physiology & Anatomy"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Integration of Physiological Systems in Maintaining Homeostasis (Choose a specific example)."},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "R - Embryology - CVS Development"}
+    {"time": "Evening (4 hours)", "activity": "R - Embryology - CVS Development"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 28": [
-    {"time": "Morning (3 hours)", "activity": "R - Physiology - Reproductive System"},
+    {"time": "Morning (5 hours)", "activity": "R - Physiology - Reproductive System"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions on Physiology (Combined Topics)"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "Integ. - Histology & Physiology"}
+    {"time": "Evening (4 hours)", "activity": "Integ. - Histology & Physiology"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 29": [
-    {"time": "Morning (2 hours)", "activity": "Rev. - Physiology & Histology (Covered Topics)"},
+    {"time": "Morning (5 hours)", "activity": "Rev. - Physiology & Histology (Covered Topics)"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions from Previous Years' Papers (Focus on covered topics)"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "R - Embryology - Respiratory System Development"}
+    {"time": "Evening (4 hours)", "activity": "R - Embryology - Respiratory System Development"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "May 30": [
-    {"time": "Morning (3 hours)", "activity": "R - Neurophysiology (Introduction)"},
+    {"time": "Morning (5 hours)", "activity": "R - Neurophysiology (Introduction)"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Clinical Significance of Understanding Basic Neurophysiology"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (4 hours)", "activity": "Rev. & Integ. - Focus on consolidating knowledge from Week 1 & Week 2"}
+    {"time": "Evening (4 hours)", "activity": "Rev. & Integ. - Focus on consolidating knowledge from Week 1 & Week 2"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 1": [
     {"time": "Morning (4 hours)", "activity": "Integ. - Focus on a system like the nervous system"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (3 hours)", "activity": "Rev. - Revisit key concepts from Week 1 & 2"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (2 hours)", "activity": "E - Essay: Choose a topic related to integrated knowledge from different subjects"}
+    {"time": "Evening (2 hours)", "activity": "E - Essay: Choose a topic related to integrated knowledge from different subjects"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 2": [
     {"time": "Morning (4 hours)", "activity": "P - Practice Questions from previous years' papers or mock tests"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (3 hours)", "activity": "Rev. - Analyze performance on practice questions"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (2 hours)", "activity": "Free Time - Relax and recharge before the next week's focus on mock tests"}
+    {"time": "Evening (2 hours)", "activity": "Free Time - Relax and recharge before the next week's focus on mock tests"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 3": [
     {"time": "Morning (4 hours)", "activity": "MT - Full-length Mock Test (Simulate exam conditions)"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (3 hours)", "activity": "Rev. - Analyze Performance on Mock Test (Identify weak areas)"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (2 hours)", "activity": "P - Focus on Practice Questions related to weak areas identified in the mock test"}
+    {"time": "Evening (2 hours)", "activity": "P - Focus on Practice Questions related to weak areas identified in the mock test"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 4": [
-    {"time": "Morning (3 hours)", "activity": "Rev. - High-Yield Topics across all Subjects"},
+    {"time": "Morning (5 hours)", "activity": "Rev. - High-Yield Topics across all Subjects"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (3 hours)", "activity": "P - Practice Questions from Different Subjects"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (2 hours)", "activity": "E - Short Essay Writing Practice"}
+    {"time": "Evening (2 hours)", "activity": "E - Short Essay Writing Practice"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 5": [
     {"time": "Morning (4 hours)", "activity": "MT - Subject-Specific Mock Tests"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (3 hours)", "activity": "Rev. - Analyze Performance on Subject-Specific Mock Tests"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (2 hours)", "activity": "Review Notes & Summaries"}
+    {"time": "Evening (2 hours)", "activity": "Review Notes & Summaries"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 6": [
     {"time": "Full Day (12 hours)", "activity": "Focused Revision"},
     {"time": "3-4 hours", "activity": "Dedicate to each core subject (Biochemistry, Physiology)."},
-    {"time": "Remaining time", "activity": "Revise other subjects, prioritizing based on importance and difficulty."}
+    {"time": "Remaining time", "activity": "Revise other subjects, prioritizing based on importance and difficulty."},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 7": [
     {"time": "Morning (4 hours)", "activity": "Rev. - Past Years' Papers & Sample Questions"},
     {"time": "Break (1 hour)", "activity": ""},
     {"time": "Afternoon (3 hours)", "activity": "P - Practice Questions under Timed Conditions"},
     {"time": "Break (1 hour)", "activity": ""},
-    {"time": "Evening (2 hours)", "activity": "E - Revisit Essay Topics & Practice Outlines"}
+    {"time": "Evening (2 hours)", "activity": "E - Revisit Essay Topics & Practice Outlines"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 8": [
     {"time": "Full Day (12 hours)", "activity": "Final Revisions & Relaxation"},
     {"time": "Morning (4-5 hours)", "activity": "Revisit key concepts and unclear areas."},
     {"time": "Afternoon (3-4 hours)", "activity": "Light review and relaxation activities."},
-    {"time": "Evening (3-4 hours)", "activity": "Final preparations and ensuring all necessary materials are packed."}
+    {"time": "Evening (3-4 hours)", "activity": "Final preparations and ensuring all necessary materials are packed."},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ],
 "June 9": [
     {"time": "Full Day (Light Review & Relaxation)"},
     {"time": "Avoid intense studying."},
-    {"time": "Ensure adequate sleep to be well-rested and energized for the exam."}
+    {"time": "Ensure adequate sleep to be well-rested and energized for the exam."},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
 ]
 }
