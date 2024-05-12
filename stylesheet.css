@@ -36,3 +36,7 @@ p {
 h3{
     color: #1fd841;
 }
+
+.card-body{
+    background-color: #aef8ec;
+}

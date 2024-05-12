@@ -2,6 +2,7 @@ $(document).ready(function() {
     
     $.getJSON('timetable.json', function(scheduleData) {
         const scheduleDiv = $('#schedule');
+        const todayTask = $('#todayTask');
         
         function displayFullSchedule() {
             scheduleDiv.empty();
@@ -67,7 +68,40 @@ $(document).ready(function() {
         $('#hours').text(hoursLeft);
         $('#minutes').text(minutesLeft);
         $('#seconds').text(secondsLeft);
-        $('#timeLeft').text('Time left until May 30th: ' + daysLeft + ' days, ' + hoursLeft + ' hours, ' + minutesLeft + ' minutes, ' + secondsLeft + ' seconds');
+        //$('#timeLeft').text('Time left until May 30th: ' + daysLeft + ' days, ' + hoursLeft + ' hours, ' + minutesLeft + ' minutes, ' + secondsLeft + ' seconds');
+    
+        //? get today task
+        var today = new Date().getDate();
+        console.log(today);
+        todaySchedule(today);
+
+        function todaySchedule(searchText) {
+            
+            todayTask.empty();
+
+            $.each(scheduleData, function(day, activities) {
+                if (day.includes(searchText)) {
+                    
+                    const dayHeading = $('<h2>').text(day);
+                    todayTask.append(dayHeading);
+                    $('#today').text(day);
+                    
+                    $.each(activities, function(index, activity) {
+                        const activityElement = $('<b>').text(activity.time);
+                        const activityDescription = $('<p>').text(activity.activity);
+                        todayTask.append('<input type="checkbox" id="checkbox" name="checkbox">');
+                        todayTask.append(activityElement);
+                        todayTask.append(activityDescription);
+                        todayTask.append('<hr>');
+                    });
+                    
+                }
+            });
+        }
+
+        
+    
+    
     })
     .fail(function(error) {
         console.log('Error loading schedule:', error);
