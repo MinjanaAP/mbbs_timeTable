@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    $.getJSON('timetable.json', function(scheduleData) {
+    $.getJSON('schedule.json', function(scheduleData) {
         const scheduleDiv = $('#schedule');
         const todayTask = $('#todayTask');
         

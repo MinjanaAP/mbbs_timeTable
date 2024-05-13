@@ -4,16 +4,16 @@
     {"time": "Break (1 hour)", "activity": "Take a break to recharge and refresh."},
     {"time": "Afternoon (2 hours)", "activity": "E - Essay: Importance of Carbohydrate Metabolism in Health"},
     {"time": "Break (1 hour)", "activity": "Another short break to avoid burnout."},
-    {"time": "Evening (4 hours)", "activity": "R - Physiology - CVS System"},
-    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
+    {"time": "Evening (4 hours)", "activity": "R - Embryology - General embryology / CVS / Respiratory system / GIT"},
+    {"time": "Evening-Revision (2 hours)","activity": "Revision on Embryology"}
 ],
 "May 14": [
-    {"time": "Morning (5 hours)", "activity": "R - Biochemistry - Metabolism (Lipids)"},
+    {"time": "Morning (5 hours)", "activity": "R - Embryology - Urinary system / Genital System"},
     {"time": "Break (1 hour)", "activity": "Short break to maintain focus."},
-    {"time": "Afternoon (2 hours)", "activity": "P - Practice Questions on Metabolism"},
+    {"time": "Afternoon (2 hours)", "activity": "R - Embryology - Head & NEck / CNS"},
     {"time": "Break (1 hour)", "activity": "Refresh and recharge for the evening session."},
     {"time": "Evening (4 hours)", "activity": "R - Physiology - Respiratory System"},
-    {"time": "Evening-Revision (2 hours)","activity": "Revision or practice questions on covered topics."}
+    {"time": "Evening-Revision (4 hours)","activity": "R - Physiology - CVS / GIT "}
 ],
 "May 15": [
     {"time": "Morning (5 hours)", "activity": "R - Biochemistry - Protein Metabolism"},
