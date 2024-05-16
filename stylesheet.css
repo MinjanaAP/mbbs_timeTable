@@ -40,3 +40,43 @@ h3{
 .card-body{
     background-color: #aef8ec;
 }
+
+/* todoList css */
+.nav-link{
+    color: #000000 !important;
+}
+
+.nav-link:hover{
+    color: #ddab2d !important;
+    border-bottom: 1px solid #ddab2d;
+}
+
+.nav-link.active{
+    color: #f49417 !important;
+    
+}
+
+.displayDate{
+    background-color: #5b2cde49;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.taskStatus{
+    background-color: #de822c3a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 12px 0;
+}
+
+.btn.addTask{
+    background-color: #89774970;
+}
+
+.btn.addTask:hover{
+    background-color: #897749;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
