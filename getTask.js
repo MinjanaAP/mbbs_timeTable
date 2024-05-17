@@ -27,6 +27,7 @@ const fetchTasks = () => {
 
         //? set new status
         let Status='';
+        let setTaskID='';
 
         //? Group tasks by deuDate
         const groupedTasks = {};
@@ -91,40 +92,40 @@ const fetchTasks = () => {
                     <div class="container-lg task-container p-3 ">
                     <div class="row mb-3">
                         <div class="col-md-6 col-12">
-                            <h6 class="m-0 task-container-topics">Title</h6>
+                            <p class="m-0 task-container-topics">Title</p>
                             <h4 class="ps-2">${task.title}</h4>
                         </div>
                         <div class="col-md-6 col-12 d-md-flex justify-content-end">
                             <div class="d-flex justify-content-between">
-                                <h6 class="task-container-topics d-md-none m-0 pt-2">Priority : </h6>
+                                <p class="task-container-topics d-md-none m-0 pt-2">Priority : </p>
                                 <h4><span class="badge" id="badge">${task.priority}</span></h4>
                             </div>
                             <div class="d-flex justify-content-between">
-                                <h6 class="task-container-topics d-md-none m-0 pt-2">Status :</h6>
+                                <p class="task-container-topics d-md-none m-0 pt-2">Status :</p>
                                 <h4><span class="badge mx-md-2" id="badge-status">${task.status}</span></h4>
                             </div>
                         </div>
                     </div>
                     <div class="container-lg task-description px-0 mb-3">
-                        <h6 class=" task-container-topics m-0">Description</h6>
+                        <p class=" task-container-topics m-0">Description</p>
                         <h5 class="ps-2">${task.description}</h5>
                     </div>
                     <div class="row dates d-flex justify-content-between mb-3">
                         <div class="col-md-4">
-                            <h6 class=" task-container-topics m-0">Due Date</h6>
+                            <p class=" task-container-topics m-0">Due Date</p>
                             <h4 class="ps-2">${task.CompletedDate}</h4>
                         </div>
                         <div class="col-md-4 d-md-flex justify-content-end">
                             <div class="createdDate">
-                                <h6 class=" task-container-topics m-0">Created Date</h6>
-                                <h4>${task.createdTime}</h4>
+                                <p class=" task-container-topics m-0">Created Date</p>
+                                <h6>${task.createdTime}</h6>
                             </div>
                         </div>
                     </div>
                     <div class="row task-buttons d-flex justify-content-between mb-3">
                         <div class="col-md-4 mb-2 mb-md-0">
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn change-status" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <button type="button" class="btn change-status" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="setTaskID('${task.id}')">
                             Change Status
                             </button>
                             
@@ -143,7 +144,7 @@ const fetchTasks = () => {
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary" onclick="setStatus('${task.id}')" data-bs-dismiss="modal">Set Status</button>
+                                    <button type="button" class="btn btn-primary" onclick="setStatus()" data-bs-dismiss="modal">Set Status</button>
                                 </div>
                                 </div>
                             </div>
@@ -191,35 +192,57 @@ const fetchTasks = () => {
     //*delete function
     const deleteTask = (taskId)=>{
         //console.log(taskId);
-        db.child(taskId).remove()
-            .then(()=>{
-                console.log('Task deleted successfully');
-                Swal.fire({
-                    title: "Task Deleted",
-                    text: "Task deleted successfully",
-                    icon: "success"
-                });
-                fetchTasks();
-            })
-            .catch((error)=>{
-                console.error("Error deleting task: ", error);
-                Swal.fire({
-                    title: "Error",
-                    text: "An error occurred while deleting the task",
-                    icon: "error"
-                });
-            })
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+            }).then((result) => {
+            if (result.isConfirmed) {
+                db.child(taskId).remove()
+                .then(()=>{
+                    console.log('Task deleted successfully');
+                    Swal.fire({
+                        title: "Task Deleted",
+                        text: "Task deleted successfully",
+                        icon: "success"
+                    });
+                    fetchTasks();
+                })
+                .catch((error)=>{
+                    console.error("Error deleting task: ", error);
+                    Swal.fire({
+                        title: "Error",
+                        text: "An error occurred while deleting the task",
+                        icon: "error"
+                    });
+                })
+            }
+            });
+
     }
+
+    let setTaskId = null;
 
     //*set new Status
     const newStatus = (newStatus)=>{
         Status = newStatus;
     }
 
+    //*set task Id for set status
+    const setTaskID = (taskId)=>{
+        setTaskId = taskId;
+        //console.log(setTaskId)
+        
+    }
+
     //*set new Status in db
-    const setStatus = (taskId)=>{
-        //console.log(Status + taskId);
-        db.child(taskId).update({status:Status})
+    const setStatus = ()=>{
+        console.log(Status + setTaskId);
+        db.child(setTaskId).update({status:Status})
         .then(()=>{
             console.log('Task status is updated to ' + Status);
             Swal.fire({
