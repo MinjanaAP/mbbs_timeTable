@@ -84,3 +84,75 @@ h3{
 .task-list{
     color: #31260af0;
 }
+
+/* !task List one task styles */
+.task-container{
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 12px 0;
+}
+
+.task-container-topics{
+    color: #000000a3;
+}
+
+.btn.edit-task{
+    background-color: #89774970;
+}
+
+.btn.edit-task:hover{
+    background-color: #897749;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.btn.delete-task{
+    background-color: #ff000070;
+}
+
+.btn.delete-task:hover{
+    background-color: #ff0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+#badge{
+    /* background-color: #ff0000; */
+    color: rgba(255, 255, 255, 0.749);
+    padding: 6px 12px;
+    font-weight: 400;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.072);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#badge-status{
+    color: rgba(255, 255, 255, 0.749);
+    padding: 6px 12px;
+    font-weight: 400;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.072);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.sortedDate{
+    background-color: #5b2cde49 !important;
+    color: #0f0e0ecb !important;
+}
+
+.modal-body-btn{
+    border: none;
+    background-color: none;
+}
+
+.btn.change-status{
+    border: 1px solid #000000;
+}
