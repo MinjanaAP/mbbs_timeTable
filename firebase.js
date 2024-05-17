@@ -36,7 +36,7 @@ const saveTask = (title,description,CompletedDate,priority,createdTime) => {
         description: description,
         CompletedDate: CompletedDate,
         priority: priority,
-        createdTime: createdTime
+        createdTime: createdTime.toLocaleDateString()
     });
     console.log('Task saved successfully');
 
@@ -45,6 +45,8 @@ const saveTask = (title,description,CompletedDate,priority,createdTime) => {
         text: "Task saved successfully",
         icon: "success"
     });
+
+    document.getElementById('addTaskForm').reset();
 }
 
 const getElementValue = (id) => {

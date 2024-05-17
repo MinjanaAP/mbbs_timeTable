@@ -76,11 +76,17 @@
                             <div class="progress-bar bg-warning" style="width: 75%"></div>
                         </div>
                     </div>
-                    <button class="btn addTask w-100">Add task <i class="bi bi-plus-circle"></i></button>
+                    <button class="btn addTask w-100"
+                        onclick="location.href='adTask.html'"
+                    >Add task <i class="bi bi-plus-circle"></i></button>
 
                 </div>
             </div>
             
+        </div>
+        <div class="container-lg">
+            <h2 class="task-list text-center">Task List</h2>
+            <ul class="list-group" id="taskList"></ul>
         </div>
 
 
@@ -100,6 +106,10 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.3/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.3/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics-compat.js"></script>
     <script src="todoScript.js"></script>
+    <script src="getTask.js"></script>
 </body>
 </html>
