@@ -93,28 +93,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#addTaskForm").submit(function(event) {
-                event.preventDefault(); // Prevent the default form submission
-                var formData = $(this).serializeArray();
-                var taskData = {};
-                formData.forEach(field => taskData[field.name] = field.value);
-                console.log(taskData);
-                $.ajax({
-                    type: 'POST',
-                    url: 'https://stark-journey-82755-51e0b03d58ce.herokuapp.com/addTask',
-                    data: JSON.stringify(taskData),
-                    contentType: 'application/json',
-                    success: function(response) {
-                        console.log(response);
-                    },
-                    error: function(error) {
-                        console.log(error);
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="firebase.js"></script>
+    
 </body>
 </html>
