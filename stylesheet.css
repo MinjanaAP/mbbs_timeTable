@@ -156,3 +156,16 @@ h3{
 .btn.change-status{
     border: 1px solid #000000;
 }
+
+/* !edit Task!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.btn.editTask{
+    background-color: #496F8A;
+    color: white;
+}
+
+.btn.editTask:hover{
+    background-color: #498A82;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}

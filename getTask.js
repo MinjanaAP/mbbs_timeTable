@@ -152,7 +152,7 @@ const fetchTasks = () => {
                         </div>
                         <div class="col-md-4 col-12 d-flex align-items-end justify-content-end">
                                 <div class="col-6 p-1">
-                                    <button class="btn edit-task w-100">Edit</button>
+                                    <button class="btn edit-task w-100" onclick="editTask('${task.id}')">Edit</button>
                                 </div>
                                 <div class="col-6 p-1">
                                     <button class="btn delete-task w-100"  onclick="deleteTask('${task.id}')">Delete</button>
@@ -260,6 +260,11 @@ const fetchTasks = () => {
                 icon: "error"
             });
         });
+    }
+
+    //*edit task-> call form
+    const editTask= (taskId)=>{
+        window.location.href=`editTask.html?taskId=${taskId}`;
     }
 
 // Fetch and display tasks when the page loads
