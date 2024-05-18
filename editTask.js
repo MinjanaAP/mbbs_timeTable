@@ -53,15 +53,38 @@ const updateTask = () => {
         return;
     }
 
+    var title = document.getElementById('editTaskTitle').value;
+    var description = document.getElementById('editTaskDescription').value;
+    var CompletedDate = document.getElementById('editTaskDate').value;
+    var priority = document.getElementById('editTaskPriority').value;
+    var createdTime = new Date().toLocaleDateString() + ' updated';
+    var editedTime = new Date();
+
     const updatedTasks = {
-        title: document.getElementById('editTaskTitle').value,
-        description: document.getElementById('editTaskDescription').value,
-        CompletedDate: document.getElementById('editTaskDate').value,
-        priority: document.getElementById('editTaskPriority').value,
-        createdTime: new Date().toLocaleDateString() + ' updated',
+        title: title,
+        description: description,
+        CompletedDate: CompletedDate,
+        priority: priority,
+        createdTime: createdTime,
     }
 
-    console.log(updatedTasks);
+    if(title === '' || description === '' || CompletedDate === '' || priority === ''){
+        Swal.fire({
+            title: "Error",
+            text: "Please fill all the fields",
+            icon: "error"
+        });
+        return;
+    }else if(new Date(CompletedDate) < new Date(editedTime.toLocaleDateString())){
+        Swal.fire({
+            title: "Error",
+            text: "Due date should be greater than current date",
+            icon: "error"
+        });
+        return;
+    }
+
+    //console.log(updatedTasks);
 
     db.child(taskId).update(updatedTasks)
         .then(() => {
