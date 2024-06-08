@@ -64,10 +64,10 @@ $(document).ready(function() {
         var secondsLeft = Math.floor((difference % (1000 * 60)) / 1000);
 
         // Display the time left until May 30th
-        $('#days').text(daysLeft);
-        $('#hours').text(hoursLeft);
-        $('#minutes').text(minutesLeft);
-        $('#seconds').text(secondsLeft);
+        // $('#days').text(daysLeft);
+        // $('#hours').text(hoursLeft);
+        // $('#minutes').text(minutesLeft);
+        // $('#seconds').text(secondsLeft);
         //$('#timeLeft').text('Time left until May 30th: ' + daysLeft + ' days, ' + hoursLeft + ' hours, ' + minutesLeft + ' minutes, ' + secondsLeft + ' seconds');
     
         //? get today task
